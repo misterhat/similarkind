@@ -1,0 +1,23 @@
+{
+  "name": "similarkind",
+  "version": "1.0.0",
+  "description": "Scrapes recommendations and genres from similarkind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "similarkind",
+    "recommendation",
+    "movies",
+    "tv",
+    "music",
+    "similar"
+  ],
+  "author": "Mister Hat <misterhat144@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "needle": "^0.7.10"
+  }
+}
