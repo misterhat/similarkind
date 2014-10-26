@@ -7,7 +7,7 @@ games, etc. based on similar entries or genres.
 
 ## Example
 ```javascript
-var similarkind = require('./');
+var similarkind = require('similarkind');
 
 similarkind.to({
     title: 'married... with children',
@@ -43,14 +43,17 @@ containing the following properties: `id`, `title` and `year`.
 ### .getGenres(entry, callback)
 Get a list of genres for an entry.
 
-`entry` is the same object as described in *to*.
+`entry` is the same object as described in `.to`.
 
 `callback` returns a list of genres for the entry (an array of strings).
 
-### .withGenres(genres, callback)
+### .withGenres(genres, [section], callback)
 Find entries with matching genres.
 
 `genres` is expected to be either a string, or an array of up to three strings.
+
+`section` decides which category to look under. See above for the possible
+options. By default it chooses `'movies'`.
 
 `callback` will return a list of entries in the same format as `.to`.
 
