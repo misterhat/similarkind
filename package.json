@@ -1,6 +1,6 @@
 {
   "name": "similarkind",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scrapes recommendations and genres from similarkind.",
   "main": "index.js",
   "scripts": {

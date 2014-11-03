@@ -2,6 +2,10 @@
 A module to access *similarkind's* features. Scrape various movies, music,
 games, etc. based on similar entries or genres.
 
+This module uses content from Sushant Gupta's [similarkind](
+http://www.similarkind.com "Find similar movies, shows, artists, bands, books and games from over 150,000+ entities."
+).
+
 ## Installation
     $ npm install similarkind
 
